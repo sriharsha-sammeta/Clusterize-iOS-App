@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		0D3998C71ABD7D5000528B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998C61ABD7D5000528B0B /* AppDelegate.swift */; };
-		0D3998C91ABD7D5000528B0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998C81ABD7D5000528B0B /* ViewController.swift */; };
 		0D3998CC1ABD7D5000528B0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3998CA1ABD7D5000528B0B /* Main.storyboard */; };
 		0D3998CE1ABD7D5000528B0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3998CD1ABD7D5000528B0B /* Images.xcassets */; };
 		0D3998D11ABD7D5000528B0B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D3998CF1ABD7D5000528B0B /* LaunchScreen.xib */; };
 		0D3998DD1ABD7D5000528B0B /* ClusterizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998DC1ABD7D5000528B0B /* ClusterizeTests.swift */; };
+		0D3998FA1ABD7FD900528B0B /* ClusterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998F41ABD7FD900528B0B /* ClusterViewController.swift */; };
+		0D3998FB1ABD7FD900528B0B /* InputTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998F51ABD7FD900528B0B /* InputTableViewController.swift */; };
+		0D3998FC1ABD7FD900528B0B /* KMeansBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998F61ABD7FD900528B0B /* KMeansBrain.swift */; };
+		0D3998FD1ABD7FD900528B0B /* KmedoidsBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998F71ABD7FD900528B0B /* KmedoidsBrain.swift */; };
+		0D3998FE1ABD7FD900528B0B /* ClusterGrapher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998F81ABD7FD900528B0B /* ClusterGrapher.swift */; };
+		0D3998FF1ABD7FD900528B0B /* ClusterGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3998F91ABD7FD900528B0B /* ClusterGraphView.swift */; };
+		0D3999011ABD805500528B0B /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3999001ABD805500528B0B /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		0D3998C11ABD7D5000528B0B /* Clusterize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clusterize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3998C51ABD7D5000528B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D3998C61ABD7D5000528B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D3998C81ABD7D5000528B0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0D3998CB1ABD7D5000528B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D3998CD1ABD7D5000528B0B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D3998D01ABD7D5000528B0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0D3998D61ABD7D5000528B0B /* ClusterizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClusterizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3998DB1ABD7D5000528B0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D3998DC1ABD7D5000528B0B /* ClusterizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterizeTests.swift; sourceTree = "<group>"; };
+		0D3998F41ABD7FD900528B0B /* ClusterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterViewController.swift; sourceTree = "<group>"; };
+		0D3998F51ABD7FD900528B0B /* InputTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputTableViewController.swift; sourceTree = "<group>"; };
+		0D3998F61ABD7FD900528B0B /* KMeansBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMeansBrain.swift; sourceTree = "<group>"; };
+		0D3998F71ABD7FD900528B0B /* KmedoidsBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KmedoidsBrain.swift; sourceTree = "<group>"; };
+		0D3998F81ABD7FD900528B0B /* ClusterGrapher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterGrapher.swift; sourceTree = "<group>"; };
+		0D3998F91ABD7FD900528B0B /* ClusterGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterGraphView.swift; sourceTree = "<group>"; };
+		0D3999001ABD805500528B0B /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +89,14 @@
 		0D3998C31ABD7D5000528B0B /* Clusterize */ = {
 			isa = PBXGroup;
 			children = (
-				0D3998C61ABD7D5000528B0B /* AppDelegate.swift */,
-				0D3998C81ABD7D5000528B0B /* ViewController.swift */,
+				0D3998F41ABD7FD900528B0B /* ClusterViewController.swift */,
+				0D3999001ABD805500528B0B /* TextViewController.swift */,
+				0D3998F51ABD7FD900528B0B /* InputTableViewController.swift */,
+				0D3998F61ABD7FD900528B0B /* KMeansBrain.swift */,
+				0D3998F71ABD7FD900528B0B /* KmedoidsBrain.swift */,
+				0D3998F81ABD7FD900528B0B /* ClusterGrapher.swift */,
+				0D3998F91ABD7FD900528B0B /* ClusterGraphView.swift */,
 				0D3998CA1ABD7D5000528B0B /* Main.storyboard */,
-				0D3998CD1ABD7D5000528B0B /* Images.xcassets */,
-				0D3998CF1ABD7D5000528B0B /* LaunchScreen.xib */,
 				0D3998C41ABD7D5000528B0B /* Supporting Files */,
 			);
 			path = Clusterize;
@@ -90,6 +105,9 @@
 		0D3998C41ABD7D5000528B0B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0D3998CF1ABD7D5000528B0B /* LaunchScreen.xib */,
+				0D3998CD1ABD7D5000528B0B /* Images.xcassets */,
+				0D3998C61ABD7D5000528B0B /* AppDelegate.swift */,
 				0D3998C51ABD7D5000528B0B /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +174,7 @@
 		0D3998B91ABD7D5000528B0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Sriharsha Sammeta";
 				TargetAttributes = {
@@ -212,8 +231,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3998C91ABD7D5000528B0B /* ViewController.swift in Sources */,
+				0D3998FB1ABD7FD900528B0B /* InputTableViewController.swift in Sources */,
+				0D3998FE1ABD7FD900528B0B /* ClusterGrapher.swift in Sources */,
 				0D3998C71ABD7D5000528B0B /* AppDelegate.swift in Sources */,
+				0D3998FA1ABD7FD900528B0B /* ClusterViewController.swift in Sources */,
+				0D3998FF1ABD7FD900528B0B /* ClusterGraphView.swift in Sources */,
+				0D3998FD1ABD7FD900528B0B /* KmedoidsBrain.swift in Sources */,
+				0D3998FC1ABD7FD900528B0B /* KMeansBrain.swift in Sources */,
+				0D3999011ABD805500528B0B /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +432,7 @@
 				0D3998E21ABD7D5000528B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D3998E31ABD7D5000528B0B /* Build configuration list for PBXNativeTarget "ClusterizeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +441,7 @@
 				0D3998E51ABD7D5000528B0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
